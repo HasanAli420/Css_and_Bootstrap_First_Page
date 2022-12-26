@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none !important;
+    text-transform: capitalize;
+}
+
+body{
+    background: #4e1fc9;
+    min-height: 100vh;
+}
+
+.container_css{
+    padding: 0 8%;
+}
+
+.flex-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+.flex-two{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+/* == HEADER AREA STYLING START == */
+
+.header{
+    background: #4e1fc9;
+    padding: 20px 0;
+}
+
+
+.header .navbar a{
+    color: rgb(224, 221, 221);
+    margin-right: 23px;
+    font-size: 18px;
+}
+
+.header .navbar a:hover{
+    color: red;
+}
+
+.header .navbar .login a{
+    display: inline-block;
+    background: rgb(189, 10, 159);
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+/* == HEADER AREA STYLING ENDS == */
+
+
+/* == Course AREA STYLING == */
+
+/* .course{
+    background: #4e1fc9;
+    min-height: 100vh;
+} */
+
+
+/* == Course AREA STYLING == */
